@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Title -->
+
+<div class="form">
+    <h1>Survey on Public Perception of Technological Advancements</h1>
+    <p>We appreciate you taking the time to complete this survey. Your response will be invaluable for my upcoming project.</p>
+    <form action="" method="post"></form>
+
+    <!-- Personal Information -->
+
+    <fieldset>
+        <label for="name">Name
+            <input type="text" name="" id="name" class="inline" placeholder="..." required>
+        </label>
+        <label for="email">Email
+            <input type="email" name="" id="email" class="inline" placeholder="..." required>
+        </label>
+        <label for="age">Age
+            <input type="number" name="" id="age" class="inline" placeholder="(Years)" required>
+        </label>
+    </fieldset>
+
+    <!-- Form -->
+
+    <fieldset>
+        <h2>How often do you use the internet in a day?</h2>
+        <label for="frequency">
+            <input type="radio" name="frequency" id="" checked> Very often
+        </label>
+        <label for="frequency">
+            <input type="radio" name="frequency" id=""> Often
+        </label>
+        <label for="frequency">
+            <input type="radio" name="frequency" id=""> Sometimes
+        </label>
+        <label for="frequency">
+            <input type="radio" name="frequency" id=""> Very rarely
+        </label>
+        <label for="frequency">
+            <input type="radio" name="frequency" id=""> Depends on mood
+        </label>
+
+        <br>
+
+        <h2>What devices do you use to access the internet?</h2>
+        <label for="devices">
+            <input type="radio" name="devices" id=""> Smartphone
+        </label>
+        <label for="devices">
+            <input type="radio" name="devices" id=""> PC/Laptop
+        </label>
+        <label for="devices">
+            <input type="radio" name="devices" id=""> Tablet
+        </label>
+
+        <br>
+        
+        <h2>What are the most frequently used applications on your device?</h2>
+        <label for="applications">
+            <input type="radio" name="applications" id=""> Social Media apps (Facebook, Instagram, Twitter, etc)
+        </label>
+        <label for="applications">
+            <input type="radio" name="applications" id=""> Music apps (Youtube Music, Spotify, etc)
+        </label>
+        <label for="applications">
+            <input type="radio" name="applications" id=""> Browser (Google, Chrome, Safari, etc)
+        </label>
+        <label for="applications">
+            <input type="radio" name="applications" id=""> Comprehensive apps (Microsoft Office, Adobe Series, etc)
+        </label>
+        <label for="applications">
+            <input type="radio" name="applications" id=""> Other apps
+            <textarea name="" rows="3" cols="30" id="" placeholder="Would you mind to tell us your other frequently used apps?"></textarea>
+        </label>
+    </fieldset>
+
+
+
+    <fieldset>
+        <h2>Which technology do you think will develop the most in the next 5 years?</h2>
+        <label for="referrer">
+            <select name="referrer" id="">
+                <option value="technology1">Artifical Intelligence (AI)</option>
+                <option value="technology2">Internet of Things (IoT)</option>
+                <option value="technology3">Virtual and Augmented Reality (VR/AR)</option>
+                <option value="technology4">Biotechnolgy</option>
+                <option value="technology5">Other</option>
+            </select>
+        </label>
+    </fieldset>
+
+
+
+    <fieldset>
+        <h2>Overall, how would you rate the current development of technology?</h2>
+        <label for="development" id="">
+            <input type="checkbox" name="" id=""> The current development of technology is rapid and offers many benefits to human life. 
+            Technology has made it easier for us to communicate, access information, and complete various tasks. However, we need to be wise in using it so that it does not have a negative impact.
+        </label>
+        <label for="development">
+            <input type="checkbox" name="" id=""> The development of technology is a double-edged sword. On the one hand, technology brings many benefits, but on the other hand, it also creates new challenges. 
+            We need to find a balance between utilizing technology and minimizing its negative impacts.
+        </label>
+        <label for="development">
+            <input type="checkbox" name="" id=""> The current development of technology is indeed fast, but it also raises many problems. Dependence on technology, data privacy, 
+            and the digital divide are some of the challenges that need to be addressed.
+        </label>
+    </fieldset>
+
+        <!-- The end of Survey -->
+
+    <fieldset>
+        <label for="suggestion"> Do you have any comments or suggestion? <br>
+            <textarea name="suggestion" id="suggestion" placeholder="Enter your comments here..." rows="5" cols="35"></textarea>
+        </label>
+
+        <!-- Footer / Submit -->
+
+        <input type="submit" name="" id="submit" value="Submit">
+    </fieldset>
+</div>
+</body>
+</html>
